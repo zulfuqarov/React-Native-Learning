@@ -32,7 +32,7 @@ const HomeScreen = () => {
       email.toLowerCase() === "admin@gmail.com"
     ) {
       console.log("giris tamamlandi");
-      navigation.navigate("Page");
+      navigation.navigate("Cards");
       setpassword("");
       setemail("");
       sererror(false);
